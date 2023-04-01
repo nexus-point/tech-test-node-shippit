@@ -91,4 +91,4 @@ npx sequelize db:seed:undo
 npm test
 ```
 
-![example test results](test.PNG)
+![example test results](tests.PNG)
