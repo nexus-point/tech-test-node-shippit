@@ -90,3 +90,5 @@ npx sequelize db:seed:undo
 ```bash
 npm test
 ```
+
+![example test results](test.PNG)
