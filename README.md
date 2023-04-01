@@ -30,7 +30,11 @@ the relationship in the order in which they are added to the family tree
 Simple right? Remember, our evaluation is based not only on getting the right output, but
 on how you come up with the solution altogether.
 
+![Solution Requirements 1](solution-req-1.PNG)
 
+![Solution Requirements 2](solution-req-2.PNG)
+
+![Solution Requirements 3](solution-req-3.PNG)
 
 
 # starting db server
