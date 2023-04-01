@@ -2,7 +2,7 @@
 
 This project was for a technical test for shippit.
 
-It is done in Node.js / TypeScript / Sequelise.
+It is done in Node.js / TypeScript / SequeliZe.
 
 # Problem Description
 
