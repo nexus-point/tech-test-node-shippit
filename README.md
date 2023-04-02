@@ -4,19 +4,21 @@ This project was for a technical test for shippit.
 
 It is done in Node.js / TypeScript / SequeliZe.
 
+The coding test is for backend and full stack engineers.
+
+Due to time constaints and other interviews, I didn't have time to do everything I could think of.
+
 # Problem Description
 
 Our problem is set on the planet of Lengaburu,
 the distant galaxy of Tara B. Our protagonists
 are King Arthur, Queen Margaret and their
 family.
+
 King Arthur is the emperor of Lengaburu and
 has been ruling the planet for the last 350
 years (they have long lives in Lengaburu!). Let’s
 write some code to get to know the family.
-The coding problem is for backend and full
-stack engineers. It tests the object oriented
-fundamentals.
 
 ![ape family tree](family-tree.PNG)
 
@@ -36,56 +38,57 @@ on how you come up with the solution altogether.
 
 ![Solution Requirements 3](solution-req-3.PNG)
 
+# Commands
 
-# starting db server
+## starting db server
 
 ```bash
 docker compose up -d
 ```
 
-# start app in dev mode using nodemon and ts-node
+## start app in dev mode using nodemon and ts-node
 
 ```bash
 npm run start:dev
 ```
 
-# builds the app for production
+## builds the app for production
 
 ```bash
 npm run build
 ```
 
-# starts the app after building
+## starts the app after building
 
 ```bash
 npm run start
 ```
 
-# run migrations
+## run migrations
 
 ```bash
 npx sequelize db:migrate
 ```
 
-# undo migrations
+## undo migrations
 
 ```bash
 npx sequelize db:migrate:undo
 ```
 
-# run seeders
+## run seeders
 
 ```bash
 npx sequelize db:seed:all
 ```
 
-# undo seeders
+## undo seeders
 
 ```bash
 npx sequelize db:seed:undo
 ```
 
-# run tests
+## run tests
 
 ```bash
 npm test
