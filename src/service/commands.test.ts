@@ -173,14 +173,4 @@ describe('Commands Tests', () => {
     ])) as string[]
     expect(results.sort()).toEqual(['Darcy', 'Alice'].sort())
   })
-  /*
-  test('test get relationship - Dominique Draco  WHOSCLOSER', async () => {
-    const results: string[] = (await execute(Commands.GET_RELATIONSHIP, [
-      'Dominique',
-      'Draco',
-      'WHOSCLOSER',
-    ])) as string[]
-    expect(results.sort()).toEqual(['Dominique'].sort())
-  })
-  */
 })
